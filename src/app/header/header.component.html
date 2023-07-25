@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg " id="header">
+  <div class="container-fluid">
+    <a class="navbar-brand" href>Voting app </a>
+  </div>
+  <div class="d-flex" id="buttons">
+    <button type="button" class="btn btn-outline-dark mx-2"
+      (click)="welcomepage=false">
+      <a routerLink="/login">Login</a> </button>
+    <button type="button" class="btn btn-outline-dark mx-3"
+      (click)="welcomepage=false">
+      <a routerLink="/register">Register</a></button>
+  </div>
+</nav>
+<router-outlet></router-outlet>
